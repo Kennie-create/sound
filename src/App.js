@@ -1,24 +1,33 @@
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-  <article>
-  <h1>
-    Welcome to Sounds
-  </h1>
+  <>
+  <h1> Welcome to Sounds </h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> 
+
   <section>
-    
     <div class="grid">
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-   
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
     </div>
   </section>
-</article>
+
+  <figure>
+    <figcaption>Listen here:</figcaption>
+    <audio
+        controls
+        src="mixkit-rain-and-thunder-storm-2390 (1).wav">
+        Your browser does not support the audio element.
+    </audio>
+</figure>
+
+</>
   );
 }
 

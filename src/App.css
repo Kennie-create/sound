@@ -16,7 +16,7 @@ section,h1 {
   justify-content: center
 }
 
-.grid-item{
+.button {
   border:thin rgb(8, 6, 6) solid;
   padding:10px;
 }
