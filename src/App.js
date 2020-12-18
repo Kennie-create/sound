@@ -15,6 +15,17 @@ function App() {
       <div class="button"></div>
       <div class="button"></div>
       <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+
     </div>
   </section>
 
@@ -22,7 +33,7 @@ function App() {
     <figcaption>Listen here:</figcaption>
     <audio
         controls
-        src="mixkit-rain-and-thunder-storm-2390 (1).wav">
+        src="mixkit-heavy-rain-loop-1243.wav">
         Your browser does not support the audio element.
     </audio>
 </figure>

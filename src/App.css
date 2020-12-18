@@ -13,7 +13,8 @@ section,h1 {
   grid-template-columns: repeat(3,150px); 
   grid-template-rows: repeat(3,150px); 
   grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
-  justify-content: center
+  justify-content: center;
+  grid-auto-rows: 150px;
 }
 
 .button {
