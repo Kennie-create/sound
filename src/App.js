@@ -1,48 +1,37 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import SoundButton from "./components/SoundButton";
 
-function playAudio(url){
-  new Audio(url).play()
-}
+const buttons = [
+  {
+    image: "/images/drums.svg",
+    sound: "/sounds/mixkit-heavy-rain-loop-1243.wav",
+    alt: "drums",
+  },
+  {
+    image: "/images/drums.svg",
+    sound: "/sounds/mixkit-heavy-rain-loop-1243.wav",
+    alt: "drums",
+  }
+];
+
+const AllButtons = () => {
+  return buttons.map((button) => {
+    return (
+      <SoundButton image={button.image} sound={button.sound} alt={button.alt} />
+    );
+  });
+};
 function App() {
   return (
-  <>
-  <h1> Welcome to Sounds </h1>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> 
-
-  <section>
-    <div className="grid">
-     
-      <button className="button" onClick={() => playAudio("/sounds/mixkit-heavy-rain-loop-1243.wav")}><img  src="/images/drums.svg" alt="drums"/></button >
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-      <button className="button"></button>
-
-    </div>
-  </section>
-
-  <figure>
-    <figcaption>Listen here:</figcaption>
-    <audio
-        controls
-        src="mixkit-heavy-rain-loop-1243.wav">
-        Your browser does not support the audio element.
-    </audio>
-</figure>
-
-</>
+    <>
+      <h1> Welcome to Sounds </h1>
+      <section>
+        <div className="grid">
+          <AllButtons />        
+        </div>
+      </section>
+    </>
   );
 }
 
