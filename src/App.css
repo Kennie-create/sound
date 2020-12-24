@@ -4,7 +4,8 @@ body {
 
 section,h1 {
   padding: 0 1em;
-  text-align: center
+  text-align: center;
+  max-width: 600px;
 }
 
 .grid
@@ -15,9 +16,22 @@ section,h1 {
   grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
   justify-content: center;
   grid-auto-rows: 150px;
+  
 }
 
 .button {
   border:thin rgb(8, 6, 6) solid;
   padding:10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2,150px); 
+    grid-template-rows: repeat(3,150px); 
+  }
+  
+}
+
+.figure {
+  margin: 0 auto;
 }

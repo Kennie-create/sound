@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+function playAudio(url){
+  new Audio(url).play()
+}
 function App() {
   return (
   <>
@@ -8,23 +11,24 @@ function App() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> 
 
   <section>
-    <div class="grid">
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
-      <div class="button"></div>
+    <div className="grid">
+     
+      <button className="button" onClick={() => playAudio("/sounds/mixkit-heavy-rain-loop-1243.wav")}><img  src="/images/drums.svg" alt="drums"/></button >
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
+      <button className="button"></button>
 
     </div>
   </section>
