@@ -73,3 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Drum by Vectorstall from the Noun Project
 [The noun project](https://thenounproject.com/)
+
+Violin by Mochamad Wildan from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+circus by Vectors Point from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+"Snare Drum, Multi Hits, A (H1).wav" by InspectorJ [www.jshaw.co.uk](www.jshaw.co.uk)of Freesound.org
