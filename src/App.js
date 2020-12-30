@@ -5,13 +5,18 @@ import SoundButton from "./components/SoundButton";
 const buttons = [
   {
     image: "/images/drums.svg",
-    sound: "/sounds/mixkit-heavy-rain-loop-1243.wav",
+    sound: "/sounds/drums.wav",
     alt: "drums",
   },
   {
-    image: "/images/drums.svg",
-    sound: "/sounds/mixkit-heavy-rain-loop-1243.wav",
-    alt: "drums",
+    image: "/images/violin.svg",
+    sound: "/sounds/violin.wav",
+    alt: "violin",
+  },
+  {
+    image: "/images/circus.svg",
+    sound: "/sounds/banjo.mp3",
+    alt: "circus",
   }
 ];
 

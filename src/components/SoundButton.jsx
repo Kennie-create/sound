@@ -8,7 +8,7 @@ const SoundButton = (props) => {
   const {image,alt,sound} = props
   return (
     <button
-      className="button"
+      className="button button-hover-animation"
       onClick={() => playAudio(sound)}
     >
       <img src={image} alt={alt} />
