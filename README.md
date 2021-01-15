@@ -80,4 +80,26 @@ Violin by Mochamad Wildan from the Noun Project
 circus by Vectors Point from the Noun Project
 [The noun project](https://thenounproject.com/)
 
+Cat by Iris Li from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+Elephant by Iris Li from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+Dog by Iris Li from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+Rain by Kimmi Studio from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+Alarm by Alice Design from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+Applause by Hopkins from the Noun Project
+[The noun project](https://thenounproject.com/)
+
+Airplane by David from the Noun Project
+[The noun project](https://thenounproject.com/)
+
 "Snare Drum, Multi Hits, A (H1).wav" by InspectorJ [www.jshaw.co.uk](www.jshaw.co.uk)of Freesound.org
+

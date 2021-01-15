@@ -17,7 +17,43 @@ const buttons = [
     image: "/images/circus.svg",
     sound: "/sounds/banjo.mp3",
     alt: "circus",
+  },
+  {
+    image: "/images/airplane.svg",
+    sound: "/sounds/airplane.wav",
+    alt: "airplane",
+  },
+  {
+    image: "/images/alarm.svg",
+    sound: "/sounds/alarm.wav",
+    alt: "alarm",
+  },
+  {
+    image: "/images/applause.svg",
+    sound: "/sounds/applause.wav",
+    alt: "applause",
+  },
+  {
+    image: "/images/cat.svg",
+    sound: "/sounds/cat.wav",
+    alt: "cat",
+  },
+  {
+    image: "/images/dog.svg",
+    sound: "/sounds/dog.wav",
+    alt: "dog",
+  },
+  {
+    image: "/images/elephant.svg",
+    sound: "/sounds/elephant.flac",
+    alt: "elephant",
+  },
+  {
+    image: "/images/rain.svg",
+    sound: "/sounds/rain.mp3",
+    alt: "rain",
   }
+
 ];
 
 const AllButtons = () => {
