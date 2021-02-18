@@ -1,17 +1,22 @@
 import React from "react";
 
-function playAudio(url){
-  new Audio(url).play()
+function playAudio(url) {
+  new Audio(url).play();
 }
 
 const SoundButton = (props) => {
-  const {image,alt,sound} = props
+  const { image, alt, sound } = props;
   return (
     <button
-      className="button button-hover-animation"
+      className="button button-flip"
       onClick={() => playAudio(sound)}
     >
-      <img src={image} alt={alt} />
+      <div className="card">
+        <div className="side">
+          <img src={image} alt={alt} />
+        </div>
+        <div className="back">{alt}</div>
+      </div>
     </button>
   );
 };
