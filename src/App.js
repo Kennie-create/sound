@@ -53,7 +53,6 @@ const buttons = [
     sound: "/sounds/rain.mp3",
     alt: "rain",
   }
-
 ];
 
 const AllButtons = () => {
