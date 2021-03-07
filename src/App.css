@@ -62,8 +62,8 @@ h1 {
   width: 100%;
   top: 0;
   left:0;
-  border:thin rgb(8, 6, 6) solid;
-}
+  border:thin purple;
+} 
 .card:hover {
   transform: rotateY(180deg);
 }
@@ -75,14 +75,17 @@ h1 {
   overflow: hidden;
   width: 100%;
   background: #eaeaed;
-
 }
 .back {
   background: #eaeaed;
-  color: #0087cc;
+  color: black;
   line-height: 150px;
+  font-weight: bold;
+  font-size: 25px;
   text-align: center;
   transform: rotateY(180deg);
 }
+
+
 
 

@@ -15,7 +15,7 @@ const SoundButton = (props) => {
         <div className="side">
           <img src={image} alt={alt} />
         </div>
-        <div className="back">{alt}</div>
+        <div className="side back" >{alt}</div>
       </div>
     </button>
   );
